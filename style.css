@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h3{
+    margin-top: 20px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+}
+body{
+    text-align: center;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+    
+}
+.blue{
+    background-color: blue;
+}
+.pink{
+    background-color: pink;
+}
+.box_containeer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20px;
+    margin: 30px;
+    
+}
+.flash{
+    background-color: white;
+}
+@media screen and (max-width: 500px) {
+    .box{
+        height: 120px;
+        width: 120px;
+        margin: 15px;
+    }
+}
